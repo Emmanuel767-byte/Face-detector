@@ -28,7 +28,7 @@ const app = new Clarifai.App({
 
 function App() {
    var [input, onInputChange]=useState([]);
-   var [imageURL, getImageURL]=useState('');
+   var [imageURL, getImageURL]=useState('');//
   var [FaceBox, calculateFaceBox]=useState('');
 
    calculateFaceBox=(resp)=>{
